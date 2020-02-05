@@ -1,0 +1,74 @@
+$darked-color:darkred;
+$cornsilk-color:cornsilk;
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    color: $darked-color;
+    background-color: $cornsilk-color;
+    font-family: sans-serif;
+  }
+  
+  
+  /*
+    Container styles
+  */
+  .container {
+    
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .container--inverted {
+    color: $cornsilk-color;
+    background-color: $darked-color;
+  }
+  
+  
+  /*
+    
+    Button styles
+    
+  */
+  .button {
+    padding: 0.5rem 2rem;
+    border: 0.2rem solid $darked-color;
+    border-radius: 0.5rem;
+    margin-top: 40%;
+    height: 100px;
+    width: 350px;
+    
+    /* match default body styles */
+    font-size: 1.2rem; 
+    color: $cornsilk-color;
+    background-color: $darked-color;
+  }
+  
+  .button:active {
+    /* Invert bg & text colors when pressed */
+    color: $darked-color;
+    background-color: $cornsilk-color;
+  }
+  
+  
+  .button--inverted {
+    border-color: $cornsilk-color;
+    
+    /* match inverted container */
+    color: $darked-color;
+    background-color: $cornsilk-color;
+  }
+  
+  .button--inverted:active {
+    /* Invert bg & text colors when pressed */
+    color: $cornsilk-color;
+    background-color: $darked-color;
+  }

@@ -1,0 +1,59 @@
+$cornsilk-color:cornsilk;
+$darkred-color:darkred;
+$white-color:white;
+$color:#ccc;
+$font:"Lucida" Grande, sans-serif;
+body{
+    background-color: $cornsilk-color;
+  }
+  
+  #result img{
+        width: 200px;
+        height: 200px;
+      }
+      .bt {
+    background-color: $darkred-color;
+    color: $white-color;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  
+  .bt:hover {
+    background-color: #1D1E1E;
+  }
+  
+  input[type=text] {
+    width: 700px;
+    padding: 12px;
+    border: 1px solid $color;
+    
+  
+    margin-top: 6px;
+    margin-bottom: 16px;
+    outline: none;
+    border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+        background-color: $cornsilk-color;
+   
+  }
+  #titre{
+    font-size: 55px; 
+    color: $darkred-color;
+    font-family: $font;
+  }
+  a{color: $darkred-color;
+   text-decoration: none;
+   font-size: 26px;
+  }
+  
+  
+  
+  
